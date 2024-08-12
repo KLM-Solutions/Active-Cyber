@@ -1,6 +1,6 @@
-streamlit==1.25.0
+streamlit==1.24.0
 python-dotenv==1.0.0
 pinecone-client==2.2.1
-openai==0.28.1
-langchain==0.0.243
-docx==0.2.4
+openai==0.27.10
+langchain==0.101.0
+python-docx==0.8.11
