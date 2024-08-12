@@ -17,7 +17,7 @@ load_dotenv()
 # Access API keys
 OPENAI_API_KEY = st.secrets["OPENAI_API_KEY"]
 PINECONE_API_KEY = st.secrets["PINECONE_API_KEY"]
-LANGCHAIN_API_KEY = st.secrets["LANGCHAIN_API_KEY"]
+LANGSMITH_API_KEY = st.secrets["LANGSMITH_API_KEY"]
 
 # Initialize clients
 openai_client = OpenAI(api_key=OPENAI_API_KEY)
