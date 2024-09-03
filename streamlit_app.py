@@ -35,7 +35,7 @@ if INDEX_NAME not in pc.list_indexes().names():
 index = pc.Index(INDEX_NAME)
 
 # Initialize OpenAIEmbeddings
-embeddings = OpenAIEmbeddings(openai_api_key=OPENAI_API_KEY)
+embeddings = OpenAIEmbeddings(openai_api_key=OPENAI_API_KEY, model="text-embedding-ada-002")
 
 def extract_text_from_docx(file):
     doc = Document(file)
